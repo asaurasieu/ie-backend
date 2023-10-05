@@ -1,9 +1,6 @@
 import pytest
 from iebank_api.models import Account
 from iebank_api import db, app
-from app import app
-import sys 
-sys.path.insert(0, '/home/runner/work/ie-backend/ie-backend/iebank_api')
 
 @pytest.fixture
 def testing_client(scope='module'):
