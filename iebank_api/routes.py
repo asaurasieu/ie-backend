@@ -1,7 +1,8 @@
 from flask import Flask, request
 from iebank_api import db, app
 from iebank_api.models import Account
-
+import sys 
+sys.path.append('/Github/ie-backend/iebank_api')
 
 @app.route('/')
 def hello_world():
