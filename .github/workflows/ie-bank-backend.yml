@@ -13,6 +13,7 @@ permissions:
 
 env:
   BACKEND_WEBAPP_DEV: asaurasieu-be-dev
+  BACKEND_WEBAPP_UAT: asaurasieu-be-uat 
 
 jobs:
   build:

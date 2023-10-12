@@ -31,3 +31,6 @@ class DevelopmentConfig(Config):
     
 class ProductionConfig(Config):
   DEBUG = False
+  
+class UATConfig(Config): 
+    pass
