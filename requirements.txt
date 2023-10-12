@@ -6,4 +6,4 @@ python-dotenv==0.21.0
 SQLAlchemy==2.0.21
 pytest
 pytest-cov
-Werkzeug==2.2
+Werkzeug==3.0.0
