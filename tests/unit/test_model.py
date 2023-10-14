@@ -14,3 +14,5 @@ def test_create_account():
     assert account.balance == 0.0
     assert account.status == 'Active'
     assert account.country == 'Spain'
+    
+    
