@@ -23,6 +23,7 @@ elif os.getenv('UAT') == 'uat':
     print("Running in UAT mode")
     app.config.from_object('config.UATConfig')
 
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
 
 db = SQLAlchemy(app)
 
